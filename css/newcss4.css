@@ -1,6 +1,7 @@
 ul#menu {
    alignment-adjust:"middle"; 
    padding-top: 20px;
+   min-width:300px;
    min-height:48px;
 }
 
