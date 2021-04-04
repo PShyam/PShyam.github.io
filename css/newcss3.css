@@ -3,6 +3,7 @@ ul#menu {
    padding-top: 20px;
     min-height:45px;
    min-width:300px;
+   
 }
 
 ul#menu li {
@@ -33,6 +34,7 @@ ul#menu li a:hover {
    
     height:10vh;
    width:12vw;
+   list-style-type:none;
 }
 #home {
    min-height:10vw;
