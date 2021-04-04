@@ -31,13 +31,13 @@ ul#menu li a:hover {
    ul#menu {
    alignment-adjust:"middle"; 
    padding-top: 2vh;
-    min-height:25vh;
-   min-width:12vw;
+    height:25vh;
+   width:12vw;
 }
    ul#menu li {
     display: inline;
-    min-height:20vh;
-    min-width:15vw;
+    height:20vh;
+    width:15vw;
   
 }
    
@@ -45,8 +45,8 @@ ul#menu li a:hover {
     background-color: #000;
     color: white;
     padding: 2vw 2vw ;
-    min-height:15vh;
-    min-width:10vw;
+    height:15vh;
+    width:10vw;
     text-decoration:none;
    
 } 
