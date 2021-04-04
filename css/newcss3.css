@@ -34,6 +34,7 @@ ul#menu li a:hover {
    padding-top:0vw;
    min-height:10vh;
    min-width:12vw;
+   padding-inline-start:0;
    list-style-type:none;
 }
 #home {
