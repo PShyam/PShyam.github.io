@@ -1,11 +1,13 @@
 ul#menu {
    alignment-adjust:"middle"; 
    padding-top: 20px;
+    min-height:35px;
 }
 
 ul#menu li {
     display: inline;
     padding-top:8px; 
+  
 }
 
 ul#menu li a {
