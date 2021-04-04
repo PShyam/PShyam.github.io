@@ -30,9 +30,9 @@ ul#menu li a:hover {
 @media (max-width:550px) {
    ul#menu {
    alignment-adjust:"middle"; 
-   padding-top: 2vw;
-    min-height:20vw;
-   min-width:15vw;
+   padding-top: 4vw;
+    min-height:15vw;
+   min-width:10vw;
 }
   ul#menu li a {
     background-color: #000;
