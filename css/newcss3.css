@@ -31,12 +31,12 @@ ul#menu li a:hover {
    ul#menu.deskicon2 {
    alignment-adjust:"middle"; 
    
-    height:20vh;
+    height:15vh;
    width:12vw;
 }
    ul#menu.deskicon2 li {
     display: inline;
-    height:15vh;
+    height:14vh;
     width:15vw;
   
 }
@@ -45,7 +45,7 @@ ul#menu li a:hover {
     background-color: #000;
     color: white;
     padding: 2vw 2vw ;
-    height:10vh;
+    height:12vh;
     width:10vw;
     text-decoration:none;
    
