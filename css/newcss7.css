@@ -13,6 +13,7 @@ and open the template in the editor.
 ul#menu {
    alignment-adjust:"middle"; 
    padding-top: 20px;
+   min-height:48px;
 }
 
 ul#menu li {
