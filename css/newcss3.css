@@ -34,6 +34,11 @@ ul#menu li a:hover {
     min-height:30vw;
    min-width:12vw;
 }
+   ul#menu li {
+    display: inline;
+  
+}
+   
   ul#menu li a {
     background-color: #000;
     color: white;
