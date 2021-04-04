@@ -31,12 +31,12 @@ ul#menu li a:hover {
    ul#menu {
    alignment-adjust:"middle"; 
    padding-top: 2vh;
-    height:25vh;
+    height:35vh;
    width:12vw;
 }
    ul#menu li {
     display: inline;
-    height:20vh;
+    height:30vh;
     width:15vw;
   
 }
@@ -45,7 +45,7 @@ ul#menu li a:hover {
     background-color: #000;
     color: white;
     padding: 2vw 2vw ;
-    height:15vh;
+    height:25vh;
     width:10vw;
     text-decoration:none;
    
