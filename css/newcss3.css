@@ -31,9 +31,9 @@ ul#menu li a:hover {
 @media (max-width:550px) {
    ul#menu.deskicon2 {
    alignment-adjust:"middle"; 
-   
-    height:10vh;
-   width:12vw;
+   padding-top:1vw;
+   min-height:10vh;
+   min-width:12vw;
    list-style-type:none;
 }
 #home {
@@ -42,6 +42,7 @@ ul#menu li a:hover {
    
    ul#menu.deskicon2 li {
     display: inline;
+    padding-top:0;
     height:9vh;
     width:15vw;
   
