@@ -34,6 +34,10 @@ ul#menu li a:hover {
     height:10vh;
    width:12vw;
 }
+#home {
+   min-height:10vw;
+   }
+   
    ul#menu.deskicon2 li {
     display: inline;
     height:9vh;
