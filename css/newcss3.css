@@ -31,11 +31,13 @@ ul#menu li a:hover {
    ul#menu {
    alignment-adjust:"middle"; 
    padding-top: 2vh;
-    min-height:10vh;
+    min-height:15vh;
    min-width:12vw;
 }
    ul#menu li {
     display: inline;
+    min-height:15vh;
+    min-width:15vw;
   
 }
    
