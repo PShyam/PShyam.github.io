@@ -28,24 +28,24 @@ ul#menu li a:hover {
     
 }
 @media (max-width:550px) {
-   ul#menu {
+   ul#menu.deskicon2 {
    alignment-adjust:"middle"; 
    
-    height:25vh;
+    height:20vh;
    width:12vw;
 }
-   ul#menu li {
+   ul#menu.deskicon2 li {
     display: inline;
-    height:20vh;
+    height:15vh;
     width:15vw;
   
 }
    
-  ul#menu li a {
+  ul#menu.deskicon2 li a {
     background-color: #000;
     color: white;
     padding: 2vw 2vw ;
-    height:15vh;
+    height:10vh;
     width:10vw;
     text-decoration:none;
    
