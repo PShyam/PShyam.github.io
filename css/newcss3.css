@@ -31,7 +31,7 @@ ul#menu li a:hover {
    ul#menu {
    alignment-adjust:"middle"; 
    padding-top: 1vw;
-    min-height:6vw;
+    min-height:8vw;
    min-width:4vw;
 }
   ul#menu li a {
