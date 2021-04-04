@@ -43,6 +43,8 @@ ul#menu li a:hover {
     background-color: #000;
     color: white;
     padding: 2vw 2vw ;
+    min-height:10vh;
+    min-width:10vw;
     text-decoration:none;
    
 } 
