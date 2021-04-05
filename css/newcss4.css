@@ -28,7 +28,41 @@ ul#menu li a:hover {
 }
 
 
-      
+@media (max-width:550px) {
+   ul#menu.deskicon2 {
+   alignment-adjust:"middle"; 
+   padding-top:0vw;
+   min-height:10vh;
+   min-width:12vw;
+   padding-inline-start:0;
+   list-style-type:none;
+}
+
+   ul#menu.deskicon2 li {
+    
+    padding-top:0;
+    height:10vh;
+    width:15vw;
+  
+}
+   
+  ul#menu.deskicon2 li a {
+    background-color: #000;
+    color: white;
+    padding: 2vw 2vw ;
+    height:9vh;
+    width:11vw;
+    min-height:9vh;
+    display:inline-block;
+} 
+   
+ul#menu li a:hover {
+    background-color: yellow;
+    color: black;
+}
+   
+}
+  
     
        
     
