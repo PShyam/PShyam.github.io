@@ -37,14 +37,11 @@ ul#menu li a:hover {
    padding-inline-start:0;
    list-style-type:none;
 }
-#home {
-   min-height:10vw;
-   }
-   
+
    ul#menu.deskicon2 li {
     
     padding-top:0;
-    height:9vh;
+    height:10vh;
     width:15vw;
   
 }
@@ -53,11 +50,17 @@ ul#menu li a:hover {
     background-color: #000;
     color: white;
     padding: 2vw 2vw ;
-    height:8vh;
-    width:10vw;
-    text-decoration:none;
-   
+    height:9vh;
+    width:11vw;
+    min-height:9vh;
+    display:inline-block;
 } 
+   
+ul#menu li a:hover {
+    background-color: yellow;
+    color: black;
+}
+   
 }
 
       
