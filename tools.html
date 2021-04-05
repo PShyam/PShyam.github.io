@@ -18,7 +18,14 @@ and open the template in the editor.
             background-repeat: round;
         }
        
-              
+           .deskicon2{display:none}
+       
+       @media (max-width: 550px) {
+          .desktoply { display:none;}
+         
+          .deskicon{display:none}
+          .deskicon2{display:block}
+          }    
        
     </style>
        <link rel="stylesheet" href="css/style.css" type="text/css"/>
@@ -46,7 +53,7 @@ and open the template in the editor.
        </div>
 
  <div align="center">
-              <ul id="menu">
+              <ul id="menu" class=deskicon>
                 <li><a id ="home" href="index.html">Home</a></li>
                 <li><a id = "skills" href="langs.html">My skillset</a></li>
                 <li><a id = "employers" href="workplace.html">Work Places</a></li>
@@ -54,6 +61,14 @@ and open the template in the editor.
                 <li><a id = "contact" href="contactme.html">Contact me</a></li>
                 <li><a id = "resume"  href="img/pshyam_resume_new.pdf">Resume</a></li>
               </ul>
+   <ul id="menu" class=deskicon2 >
+                <li id="line"><a id ="home" href="index.html"> <img src="img/house123.png" alt="Home1"  style="background-color:black; color:black;height:7vw;width:auto;margin-top:1vh;"></a></li>
+                <li><a id = "skills" href="langs.html"><img src="img/skillr123.png" alt="skill123" style="background-color:black; color:black;height:7vw;width:auto;margin-top:1vh;"></a></li>
+                <li><a id = "employers" href="workplace.html"><img src="img/comp123.png" alt="emp123" style="background-color:black; color:black;height:7vw;width:auto;margin-top:1vh;"></a></li>
+                 <li><a id = "portfolio" href="gallery.html"><img src="img/images123.png" alt="gal123" style="background-color:black; color:black;height:7vw;width:auto;margin-top:1vh;"></a></li>
+                <li><a id = "resume"  href="https://in.linkedin.com/in/shyam-p-b3987a118"><img src="img/in123.png" alt="in123" style="background-color:black; color:black;height:7vw;width:auto;margin-top:1vh;"></a></li>
+              </ul>
+     
             </div>
       <br></br>  <br></br>   
           
