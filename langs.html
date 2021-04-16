@@ -10,10 +10,9 @@ and open the template in the editor.
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.0/chart.min.js" integrity="sha512-RGbSeD/jDcZBWNsI1VCvdjcDULuSfWTtIva2ek5FtteXeSjLfXac4kqkDRHVGf1TwsXCAqPTF7/EYITD0/CTqw==" crossorigin="anonymous"></script>
+    
     <title>Coding my Life</title>
-    <style>
+    <style><
       
         #anil{
             background-image: url("img/black.jpg");
@@ -55,10 +54,10 @@ and open the template in the editor.
   </head>
   <body id="anil">
       
-<script src="https://cdn.jsdelivr.net/npm/chart.js@3.1.0/dist/chart.min.js" integrity="sha256-OSW9/BPFwmBNYIPuSLygt3lPae4mVUHtCFgrFTPzCNI=" crossorigin="anonymous"></script>
+
  <div align="center">
               <ul id="menu" class=deskicon>
-                <li><a id ="home" href="index.html">Home</a></li>
+                <li><a id ="home" href="index.html">Home</a></li><
                 <li><a id = "skills" href="langs.html">My skillset</a></li>
                 <li><a id = "employers" href="workplace.html">Work Places</a></li>
                 <li><a id = "portfolio" href="gallery.html">Gallery</a></li>
@@ -79,83 +78,16 @@ and open the template in the editor.
         </div>
        
         
-        <div style="position:relative;left:500px;">
-        <div class="btn-group"  >
-    <button type="button" class="btn btn-default">   java   </button>
-    <button type="button" class="btn btn-primary">javascript</button>
-    <button type="button" class="btn btn-success">     C    </button>
-    <button type="button" class="btn btn-info"> Assembly </button>
-    <button type="button" class="btn btn-warning">  HTML  </button>
-    <button type="button" class="btn btn-danger">   C++  </button>
-  </div>
-         </div>
        
-        
-      
-      <div>   
-<canvas id="myChart"  >
-</canvas>
-   </div>    
-  <script>
-  
-
- 
-
-import {
-  Chart,
-  ArcElement,
-  LineElement,
-  BarElement,
-  PointElement,
-  BarController,
-  BubbleController,
-  DoughnutController,
-  LineController,
-  PieController,
-  PolarAreaController,
-  RadarController,
-  ScatterController,
-  CategoryScale,
-  LinearScale,
-  LogarithmicScale,
-  RadialLinearScale,
-  TimeScale,
-  TimeSeriesScale,
-  Decimation,
-  Filler,
-  Legend,
-  Title,
-  Tooltip
-} from 'chart.js';
-
-Chart.register(
-  ArcElement,
-  LineElement,
-  BarElement,
-  PointElement,
-  BarController,
-  BubbleController,
-  DoughnutController,
-  LineController,
-  PieController,
-  PolarAreaController,
-  RadarController,
-  ScatterController,
-  CategoryScale,
-  LinearScale,
-  LogarithmicScale,
-  RadialLinearScale,
-  TimeScale,
-  TimeSeriesScale,
-  Decimation,
-  Filler,
-  Legend,
-  Title,
-  Tooltip
-);
-                                                   
+       
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div>
+    
+<canvas id="myChart" width="500" height="500"></canvas>    
+</div>
+<script>
  var myChart = new Chart(
-    document.getElementById('myChart').getContext('2d'),{
+    document.getElementById('myChart'),{
     type:'doughnut',
     data: {
   labels: [
@@ -167,7 +99,7 @@ Chart.register(
   ],
   datasets: [{
     label: 'My First Dataset',
-    data: [100,100,50,150,100],
+    data: [100,33,50,150,100],
       backgroundColor: [
       'rgb(255, 99, 132)',
       'rgb(75, 192, 192)',
@@ -180,17 +112,8 @@ Chart.register(
   }});
 
    </script>
-    
-        
-         
-         
-             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.js"></script>
-        
-
+       
+             
     </body>
   
 </html>
