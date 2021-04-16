@@ -123,7 +123,7 @@ const data = {
   }]
                                                      
  var myChart = new Chart(
-    document.getElementById('myChart'),
+    document.getElementById('myChart').getContext('2d'),
     config
   );
 };
