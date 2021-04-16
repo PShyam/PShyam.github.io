@@ -98,7 +98,7 @@ and open the template in the editor.
   
  const config = {
   type: 'doughnut',
-  data: data,
+  data
 };
                                                      
 const data = {
@@ -124,9 +124,29 @@ const data = {
   };
                                                      
  var myChart = new Chart(
-    document.getElementById('myChart').getContext('2d'),
-    config
-  );
+    document.getElementById('myChart').getContext('2d'),{
+    type:'doughnut',
+    data: {
+  labels: [
+    'python',
+    'C/C++',
+    'HTML/CSS',
+     'verilog',
+     'systemverilog'                                               
+  ],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [100,100,50,150,100],
+      backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(75, 192, 192)',
+      'rgb(255, 205, 86)',
+      'rgb(201, 203, 207)',
+      'rgb(54, 162, 235)'
+    ],
+    hoverOffset: 4
+  }]
+  }});
 
    </script>
     
