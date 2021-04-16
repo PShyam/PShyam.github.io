@@ -86,6 +86,9 @@ and open the template in the editor.
 <canvas id="myChart" width="300" height="300"></canvas>    
 </div>
 <script>
+                                             var c= document.getElementById('myChart');
+                                             c.width=100;
+                                             c.height=100;
  var myChart = new Chart(
     document.getElementById('myChart'),{
     type:'doughnut',
