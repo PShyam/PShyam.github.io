@@ -11,6 +11,7 @@ and open the template in the editor.
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.0/chart.min.js" integrity="sha512-RGbSeD/jDcZBWNsI1VCvdjcDULuSfWTtIva2ek5FtteXeSjLfXac4kqkDRHVGf1TwsXCAqPTF7/EYITD0/CTqw==" crossorigin="anonymous"></script>
     <title>Coding my Life</title>
     <style>
       
@@ -122,7 +123,8 @@ const data = {
     hoverOffset: 4
   }]
   };
-                                                     
+ import Chart from 'chart.js/auto';
+                                                   
  var myChart = new Chart(
     document.getElementById('myChart').getContext('2d'),{
     type:'doughnut',
