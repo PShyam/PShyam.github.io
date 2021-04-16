@@ -93,55 +93,41 @@ and open the template in the editor.
       <div  align="center" style="alignment-adjust:central">   
 <canvas id="myChart" width="550" height="550" >
 </canvas>
+     
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
-      $(document).ready(function() {});
-
-$.getScript('http://www.chartjs.org/assets/Chart.js',function(){
-  
-  var data = [{
-        value: 20,  
-        color: "#ffffff",
-        label:"java"
-      
-    }, {
-        value: 20,  
-        color: "#0066CC",
-        label:"javascript"
-      
-    }, {
-        value: 100,
-        color: "#009933",
-        label:"  C "
-        
-    }, {
-        value: 50,
-        color: "#66CCFF",
-        label:"Assembly"
-    }, {
-        value: 50,
-        color: "#FF8533",
-        label:"html"
-    }, {
-        value: 100,
-        color: "#CC0000",
-        label:" C++"
-    }
-
-    ]
-
-    var options = {
-        
-        animation:true    };
-
-    //Get the context of the canvas element we want to select
-    var c = $('#myChart');
-    var ct = c.get(0).getContext('2d');
-    var ctx = document.getElementById("myChart").getContext("2d");
-    /*************************************************************************/
-    myNewChart = new Chart(ct).Doughnut(data, options);
-
-})
- </script>
+ const config = {
+  type: 'doughnut',
+  data: data,
+};
+                                                     
+const data = {
+  labels: [
+    'python',
+    'C/C++',
+    'HTML/CSS',
+     'verilog',
+     'systemverilog'                                               
+  ],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [100,100,50,150,100],
+      backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(75, 192, 192)',
+      'rgb(255, 205, 86)',
+      'rgb(201, 203, 207)',
+      'rgb(54, 162, 235)'
+    ],
+    hoverOffset: 4
+  }]
+                                                     
+ var myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+  );
+};
+   </script>
       </div>
          <br></br> <br></br>   <br></br> 
          
