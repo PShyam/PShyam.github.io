@@ -65,11 +65,14 @@ and open the template in the editor.
               </ul>
             </div>
 
-        <br></br>  <br></br>   <br></br> 
-         <div align="center">
+        <br></br>  <br></br> 
+         <div align="center" class="desktoply">
         <h1  style="color:#472400;font-size:100px;font-style:oblique;font-family:"Times New Roman", Times, serif>Photo Gallery</h1>  
         </div>
-        <br></br> <br></br>   <br></br> 
+        <div align="center" class="deskicon2">
+        <h1  style="color:#472400;font-size:100px;font-style:oblique;font-family:"Times New Roman", Times, serif>Photo Gallery</h1>  
+        </div>
+        <br></br> <br></br>  
                  
               <div >        
                   
@@ -77,24 +80,33 @@ and open the template in the editor.
 
 <div class="deskicon2" >  
       <div class="item active">
-        <img src="img/IMG_1.jpg" alt="Chania" width="150" height="120">
+        <img src="img/IMG_1.jpg" id='getImage'>
       </div>
 
-      <div class="item">
-        <img src="img/IMG_2.jpg" alt="Chania" width="250" height="120">
-      </div>
-    
-      <div class="item">
-        <img src="img/IMG_3.jpg" alt="Flower" width="150" height="120">
-      </div>
-
-      <div class="item">
-        <img src="img/IMG_4.jpg" alt="Flower" width="150" height="120">
-      </div>
+      
     </div>
 
     
   </div>
+  <div class="deskicon2">
+    	<input type="button" onclick="imagefun()" value="Change Image">
+    </div>
+    <script>
+        function imagefun() {
+            var Image_Id = document.getElementById('getImage');
+            if (Image_Id.src.match("img/IMG_1.jpg")) {
+                Image_Id.src = "img/IMG_2.jpg"; }
+            else if (Image_Id.src.match("img/IMG_2.jpg")) {
+                Image_Id.src = "img/IMG_3.jpg"; }
+            else if (Image_Id.src.match("img/IMG_3.jpg")) {
+                Image_Id.src = "img/IMG_4.jpg"; }
+            else  {
+                Image_Id.src = "img/IMG_1.jpg"; }
+                                              }
+</script>
+            
+            
+            
 
                            
 <div class="desktoply">  <div class="container" float="right">
@@ -121,7 +133,7 @@ and open the template in the editor.
         <img src="img/IMG_4.jpg" alt="Flower" width="690" height="518">
       </div>
     </div>
-
+    
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
