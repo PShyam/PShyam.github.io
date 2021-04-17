@@ -87,7 +87,7 @@ and open the template in the editor.
                                                        
 <div align="center" style="width:60vw;height:60vw" >
     
-<canvas id="myChart" width="300" height="300" style="display:block;widht:60vw;height:60vw" align="center"  ></canvas>    
+<canvas id="myChart2" width="300" height="300" style="display:block;widht:60vw;height:60vw" align="center"  ></canvas>    
                                                                                                </div>
                                                                                     
                                                                                           
@@ -96,6 +96,30 @@ and open the template in the editor.
                                              c.width=100;
                                              c.height=100;
  var myChart = new Chart(
+    document.getElementById('myChart'),{
+    type:'doughnut',
+    data: {
+  labels: [
+    'python',
+    'C/C++',
+    'HTML/CSS',
+     'verilog',
+     'systemverilog'                                               
+  ],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [100,33,50,150,100],
+      backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(75, 192, 192)',
+      'rgb(255, 205, 86)',
+      'rgb(201, 203, 207)',
+      'rgb(54, 162, 235)'
+    ],
+    hoverOffset: 4
+  }]
+  }});
+ var myChart2 = new Chart(
     document.getElementById('myChart'),{
     type:'doughnut',
     data: {
